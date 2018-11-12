@@ -11,3 +11,7 @@ Ttreino de css + html
 ## Detalhes
 - Tema: `Instagram`
 - Identidade: Padrões da página inicial do instagram 9versão web)
+
+## Cores do Projeto
+- `#FFFFFF` (White)
+- `#F8F8FF` (GhostWhite)
