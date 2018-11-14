@@ -45,7 +45,6 @@ main {
     overflow: auto;
     border: 1px solid #DCDCDC;	
 
-    
       
 }
 
@@ -66,51 +65,86 @@ main {
 
 .profile {
     width: calc(270px);
-    height: calc(500px - 85%) ;
+    height: calc(500px - 84%) ;
+    padding: 12px;
     float: right;
     
 
 }
 .stories {
-    width: calc(270px);
+    width: calc(250px);
     height: calc(500px - 55%) ;
+    padding: 12px;
     background: white;
-    float: right;
     z-index:1;
     overflow: auto;
-    border: 1px solid #DCDCDC	
-    ;
+    border: 1px solid #DCDCDC;
 
 }
+
+#storie {
+    background: white;
+    z-index:1;
+    overflow: auto;
+    border: 1px solid white;
+    padding: 4px 0px 2px 0px;
+    
+}
+
+.storie-title {
+    margin-bottom: 8px;
+    margin-left: 12px;
+    color: gray;
+    display: inline-flex;
+}
+
+.ver-tudo {
+    margin-bottom: 8px;
+    color: #1C1C1C;
+    float: right;
+    display: inline-block;
+}
+
 .post::-webkit-scrollbar {
     width: 0px;
 }
 
 
-
-.img-queenie, .img-tina, .img-newt {
-    width: 62px;
-    height: 62px;
+.img-queenie, .img-tina  {
+    width: 56px;
+    height: 56px;
     border-radius: 32px;
     border: 1px solid #CDC8B1;
-    margin: 0px 8px 18px 8px;
+    margin: 12px 8px 24px 8px;
    /* position: absolute;*/
     float: left;
+    display: flex;
 }
 
-.username-queenie,  {
+.username-queenie  {
     display: inline-block;
     font-weight: bold;
 }
 
-.username-tina, .username-newt {
-    display: inline-block;
+.img-newt {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    border: 2px solid #C71585;
+    margin: 0px 12px 8px 8px;
+    float: left;
+
+}
+
+
+ .username-newt {
+    display: inline-flex;
     font-weight: bold;
     margin-top: 8px;
 }
 
 
-.name-queenie, .name-tina, .name-newt {
+.name-queenie {
     margin: 2px 0px 0px 0px;
     display: inline-block;
     color: gray;
@@ -118,15 +152,11 @@ main {
 
 }
 
-.img-newt {
-    width: 38px;
-    height: 38px;
-    margin: 8px 8px 8px 8px;
-    border-radius: 32px;
-    border: 2px solid #C71585;
-    float: left;
-    display: -webkit-inline-box;
-
+.last-acess {
+    margin: 2px 0px 0px 0px;
+    display: inline-block;
+    color: gray;
+    font-size: 11px;
 }
 
 
@@ -137,8 +167,7 @@ main {
     border-radius: 32px;
     border: 1px solid #CDC8B1;
 
-}
-  
+} 
 
 
 .suggestions {
@@ -149,6 +178,23 @@ main {
     /*margin-top: 8px; */
     border: 1px solid #DCDCDC;	
 
+}
+
+#suggestion {
+    background: white;
+    z-index:1;
+    overflow: auto;
+    border: 1px solid white;
+    padding: 4px 0px 2px 0px;
+    
+}
+
+
+.username-tina {
+    display: inline-flex;
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 14px;
 }
 
 .txt-suggestions {
