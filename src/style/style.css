@@ -32,28 +32,131 @@ main {
     height: 500px;
     position: absolute;
     background: white;
-
    }
 
 .post {
-    position:absolute; 
-    left:10px; 
-    top:20px; 
-    width:580; 
-    height:480;
+    width:600px; 
+    height:700px;
     z-index:1;
     overflow: auto;
+    position:absolute;
     border: 1px solid #DCDCDC;	
-
       
 }
 
-.img-afoh {
-    width: 530;
-    height: 450;
-    padding: 8px;
-    margin: 12px;
+.parte-1 {
+    width:600px; 
+    height:450px;
 }
+
+.parte-icones {   
+    width:600px; 
+    height:50px;
+    margin-top:6px;
+}
+
+.parte-2 {
+    width:600px; 
+    height:185px;
+}
+
+.likes {
+    margin: 0px 0px 8px 12px;
+    display: block;
+}
+
+.txt-post {
+     margin: 8px 8px 8px 12px;
+     display: block;
+     cursor: pointer;
+ }
+
+ .comment-1, .comment-2 {
+    margin: 8px 8px 8px 12px;
+    display: block;
+    cursor: pointer;
+}
+
+.last-acess-post {
+    margin: 8px 8px 8px 12px;
+    display: block;
+    color: gray;
+    font-size: 14px;
+}
+
+.img-icon-heart-comment {
+    width: 18px;
+    height: 14px;
+    cursor: pointer;
+    display: block;
+    float: right;
+    margin-right: 4px;
+}
+
+#input-comment {
+    width: 550px;
+    height: 44px;
+    border: 1px solid #DCDCDC;
+    border-right:1px solid white	
+}
+
+
+.button-report {
+    width: 50px;
+    height: 44px;
+    float: right;
+    background: white;
+    border: 1px solid white;
+    border-bottom: 1px solid #DCDCDC;
+    border-top: 1px solid #DCDCDC;	
+    
+}
+
+.img-afoh {
+    width: 600px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.img-icon-heart-post {
+    width: 32px;
+    height: 26px;
+    cursor: pointer;
+    float: left;
+    margin: 6px;
+    padding: 4px;
+}
+
+.img-icon-chat {
+    width: 32px;
+    height: 24px;
+    cursor: pointer;
+    float: left;
+    margin: 6px;
+    padding: 4px;
+
+
+}
+
+.img-icon-share {
+    width: 28px;
+    height: 22px;
+    cursor: pointer;
+    float: left;
+    margin: 6px;
+    padding: 4px;
+
+
+}
+.img-icon-save {
+    width: 24px;
+    height: 28px;
+    cursor: pointer;
+    float: right;
+    margin: 10px 10px 6px 6px;
+
+}
+
 
 .panel-right {
     width: 270px;
@@ -65,20 +168,32 @@ main {
 
 .profile {
     width: calc(270px);
-    height: calc(500px - 84%) ;
+    height: calc(500px - 88%) ;
     padding: 12px;
     float: right;
+    cursor: pointer;
+
     
 
 }
 .stories {
-    width: calc(250px);
+    width: 250px;
     height: calc(500px - 55%) ;
     padding: 12px;
     background: white;
     z-index:1;
     overflow: auto;
     border: 1px solid #DCDCDC;
+
+}
+
+.suggestions {
+    width: 250px;
+    height: calc(500px - 65%);
+    padding: 12px;
+    background: white;
+    margin-top: 12px; 
+    border: 1px solid #DCDCDC;	
 
 }
 
@@ -98,11 +213,23 @@ main {
     display: inline-flex;
 }
 
-.ver-tudo {
+.ver-tudo-stories {
     margin-bottom: 8px;
     color: #1C1C1C;
     float: right;
     display: inline-block;
+    cursor: pointer;
+
+}
+
+.ver-tudo-suggestions {
+    margin-bottom: 8px;
+    margin-right: 8px;
+    color: #1C1C1C;
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+
 }
 
 .post::-webkit-scrollbar {
@@ -110,20 +237,35 @@ main {
 }
 
 
-.img-queenie, .img-tina  {
-    width: 56px;
-    height: 56px;
+.img-queenie  {
+    width: 46px;
+    height: 46px;
     border-radius: 32px;
     border: 1px solid #CDC8B1;
-    margin: 12px 8px 24px 8px;
+    margin: 0px 8px 24px 8px;
    /* position: absolute;*/
     float: left;
     display: flex;
+    cursor: pointer;
+
 }
+
 
 .username-queenie  {
     display: inline-block;
     font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.name-queenie {
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    color: gray;
+    font-size: 13.5px;
+
+
 }
 
 .img-newt {
@@ -133,26 +275,22 @@ main {
     border: 2px solid #C71585;
     margin: 0px 12px 8px 8px;
     float: left;
+    cursor: pointer;
 
 }
-
 
  .username-newt {
     display: inline-flex;
     font-weight: bold;
     margin-top: 8px;
-}
-
-
-.name-queenie {
-    margin: 2px 0px 0px 0px;
-    display: inline-block;
-    color: gray;
-    font-size: 13.5px;
+    cursor: pointer;
 
 }
 
-.last-acess {
+
+
+
+.last-acess-stories {
     margin: 2px 0px 0px 0px;
     display: inline-block;
     color: gray;
@@ -161,25 +299,43 @@ main {
 
 
 .img-tina {
+    width: 32px;
+    height: 32px;
+    border-radius: 26px;
+    border: 1px solid #CDC8B1;
+    margin: 0px 12px 8px 8px;
+    float: left;
+    cursor: pointer;
+
+
+}
+.img-dumbledore {
     width: 38px;
     height: 38px;
-    margin: 8px 8px 8px 8px;
     border-radius: 32px;
-    border: 1px solid #CDC8B1;
+    border: 2px solid #C71585;
+    margin: 8px;
+    float: left;
+    cursor: pointer;
+}
 
-} 
-
-
-.suggestions {
-    width: calc(270px);
-    height: calc(500px - 65%) ;
-    background: white;
-    float: right; 
-    /*margin-top: 8px; */
-    border: 1px solid #DCDCDC;	
+ .username-dumbledore {
+    display: inline-flex;
+    margin: 4px 8px 12px 0px;
+    cursor: pointer;
 
 }
 
+
+.username-tina {
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 6px;
+    cursor: pointer;
+
+
+}
 #suggestion {
     background: white;
     z-index:1;
@@ -189,18 +345,18 @@ main {
     
 }
 
-
-.username-tina {
-    display: inline-flex;
-    font-weight: bold;
-    margin-top: 8px;
+.title-suggestions {
+    margin: 18px 8px 16px 8px;
     font-size: 14px;
+    font-weight: bold;
+    color: gray;
 }
 
+
 .txt-suggestions {
-    margin: 18px 8px 12px 8px;
-    font-size: 14;
-    color: gray;
+    display: inline-flex;
+    margin-top: 4px;
+    font-size: 12px;
 }
 
 
@@ -243,8 +399,8 @@ main {
 }
 
 .img-icon-heart {
-    width: 38px;
-    height: 20px;
+    width: 32px;
+    height: 24px;
     cursor: pointer;
     float: right;
     margin: 24px 32px 32px 0;
