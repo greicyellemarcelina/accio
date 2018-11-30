@@ -2,15 +2,18 @@
     <head>
         <link href="./style/style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
-    </head>
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">    </head>
     <body>
         <main>
             <div class="topo">            
                 <div class="icons-topo">
                     <img src="./img/icon-instagram.png" class="icon-instagram">
                     <img src="./img/txt-instagram.png" class="txt-instagram">
-                    <input type="text" placeholder="&#xf087;" class="input-search">
+                    <input type="text" class="input-search"/>
+                    <button class="submit-lupa" type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+
                     <img src="./img/img-icon-avatar.png" class="img-icon-avatar">              
                     <img src="./img/img-icon-heart.png" class="img-icon-heart">    
                     <img src="./img/img-icon-bussola.png" class="img-icon-bussola">           
@@ -19,7 +22,7 @@
 
             <div class="panel-general">
                 <div class="panel-left">
-                    <div class="post">
+                    <div class="post-1">
                         <div class="parte-1">
                              
                             <img src="./img/img-dumbledore.jpg" class="img-dumbledore"><br>
@@ -35,6 +38,7 @@
                         </div>
 
                         <div class="parte-2">
+                              
                             <span class="likes">360 likes</span>
                              
                             <span class="txt-post">albusdumbledore #FantasticBeasts:The Crimes of Grindelwald 
@@ -66,7 +70,214 @@
                             </span>                           
                         </div>       
                     </div>
+
+
+                    <div class="post-2">
+                        <div class="parte-1">
+                             
+                            <img src="./img/img-dumbledore.jpg" class="img-dumbledore"><br>
+                            <span class="username-dumbledore">albusdumbledore</span>
+                            <img src="./img/img-afoh.png" class="img-afoh">
+                            
+                        </div>
+                        <div class="parte-icones">
+                            <img src="./img/img-icon-heart.png" class="img-icon-heart-post">    
+                            <img src="./img/img-icon-chat.png" class="img-icon-chat">  
+                            <img src="./img/img-icon-share.png" class="img-icon-share">  
+                            <img src="./img/img-icon-save.png" class="img-icon-save"> 
+                        </div>
+
+                        <div class="parte-2">
+                              
+                            <span class="likes">360 likes</span>
+                             
+                            <span class="txt-post">albusdumbledore #FantasticBeasts:The Crimes of Grindelwald 
+                                is “Jaw-Dropping.” Get tickets: Link in bio.
+                            </span>
+
+                            <span class="comment-1">
+                                littlelegendsart Grindelwald is good but Voldemort is WAY better! 
+                                <span class="icon-favorite">
+                                    <img src="./img/img-icon-heart.png" class="img-icon-heart-comment">    
+                                </span>
+                            </span>
+
+                            <span class="comment-2">
+                                harishraghavendra Voldermort has the vibe...Grindlewald is just a good villian!
+                                <span class="icon-favorite">
+                                    <img src="./img/img-icon-heart.png" class="img-icon-heart-comment">    
+                                </span>
+                            </span>
+
+                            <span class="last-acess-post">
+                                2 hours ago
+                            </span>
+                            <span>                               
+                                <input type="text" id="input-comment" name="txt-add-comment" value="Add a comment...">
+                                <button type="button" class="button-report" onclick="alert('This button does nothing.')">
+                                        <i class="fas fa-arrows-alt" id="icon-report"></i>
+                                </button>                              
+                            </span>                           
+                        </div>       
+                    </div>
+
+
+                    <div class="post-3">
+                        <div class="parte-1">
+                             
+                            <img src="./img/img-dumbledore.jpg" class="img-dumbledore"><br>
+                            <span class="username-dumbledore">albusdumbledore</span>
+                            <img src="./img/img-afoh.png" class="img-afoh">
+                            
+                        </div>
+                        <div class="parte-icones">
+                            <img src="./img/img-icon-heart.png" class="img-icon-heart-post">    
+                            <img src="./img/img-icon-chat.png" class="img-icon-chat">  
+                            <img src="./img/img-icon-share.png" class="img-icon-share">  
+                            <img src="./img/img-icon-save.png" class="img-icon-save"> 
+                        </div>
+
+                        <div class="parte-2">
+                              
+                            <span class="likes">360 likes</span>
+                             
+                            <span class="txt-post">albusdumbledore #FantasticBeasts:The Crimes of Grindelwald 
+                                is “Jaw-Dropping.” Get tickets: Link in bio.
+                            </span>
+
+                            <span class="comment-1">
+                                littlelegendsart Grindelwald is good but Voldemort is WAY better! 
+                                <span class="icon-favorite">
+                                    <img src="./img/img-icon-heart.png" class="img-icon-heart-comment">    
+                                </span>
+                            </span>
+
+                            <span class="comment-2">
+                                harishraghavendra Voldermort has the vibe...Grindlewald is just a good villian!
+                                <span class="icon-favorite">
+                                    <img src="./img/img-icon-heart.png" class="img-icon-heart-comment">    
+                                </span>
+                            </span>
+
+                            <span class="last-acess-post">
+                                2 hours ago
+                            </span>
+                            <span>                               
+                                <input type="text" id="input-comment" name="txt-add-comment" value="Add a comment...">
+                                <button type="button" class="button-report" onclick="alert('This button does nothing.')">
+                                        <i class="fas fa-arrows-alt" id="icon-report"></i>
+                                </button>                              
+                            </span>                           
+                        </div>       
+                    </div>
+
+
+                    <div class="post-4">
+                        <div class="parte-1">
+                             
+                            <img src="./img/img-dumbledore.jpg" class="img-dumbledore"><br>
+                            <span class="username-dumbledore">albusdumbledore</span>
+                            <img src="./img/img-afoh.png" class="img-afoh">
+                            
+                        </div>
+                        <div class="parte-icones">
+                            <img src="./img/img-icon-heart.png" class="img-icon-heart-post">    
+                            <img src="./img/img-icon-chat.png" class="img-icon-chat">  
+                            <img src="./img/img-icon-share.png" class="img-icon-share">  
+                            <img src="./img/img-icon-save.png" class="img-icon-save"> 
+                        </div>
+
+                        <div class="parte-2">
+                              
+                            <span class="likes">360 likes</span>
+                             
+                            <span class="txt-post">albusdumbledore #FantasticBeasts:The Crimes of Grindelwald 
+                                is “Jaw-Dropping.” Get tickets: Link in bio.
+                            </span>
+
+                            <span class="comment-1">
+                                littlelegendsart Grindelwald is good but Voldemort is WAY better! 
+                                <span class="icon-favorite">
+                                    <img src="./img/img-icon-heart.png" class="img-icon-heart-comment">    
+                                </span>
+                            </span>
+
+                            <span class="comment-2">
+                                harishraghavendra Voldermort has the vibe...Grindlewald is just a good villian!
+                                <span class="icon-favorite">
+                                    <img src="./img/img-icon-heart.png" class="img-icon-heart-comment">    
+                                </span>
+                            </span>
+
+                            <span class="last-acess-post">
+                                2 hours ago
+                            </span>
+                            <span>                               
+                                <input type="text" id="input-comment" name="txt-add-comment" value="Add a comment...">
+                                <button type="button" class="button-report" onclick="alert('This button does nothing.')">
+                                        <i class="fas fa-arrows-alt" id="icon-report"></i>
+                                </button>                              
+                            </span>                           
+                        </div>       
+                    </div>
+
+
+                    <div class="post-5">
+                        <div class="parte-1">
+                             
+                            <img src="./img/img-dumbledore.jpg" class="img-dumbledore"><br>
+                            <span class="username-dumbledore">albusdumbledore</span>
+                            <img src="./img/img-afoh.png" class="img-afoh">
+                            
+                        </div>
+                        <div class="parte-icones">
+                            <img src="./img/img-icon-heart.png" class="img-icon-heart-post">    
+                            <img src="./img/img-icon-chat.png" class="img-icon-chat">  
+                            <img src="./img/img-icon-share.png" class="img-icon-share">  
+                            <img src="./img/img-icon-save.png" class="img-icon-save"> 
+                        </div>
+
+                        <div class="parte-2">
+                              
+                            <span class="likes">360 likes</span>
+                             
+                            <span class="txt-post">albusdumbledore #FantasticBeasts:The Crimes of Grindelwald 
+                                is “Jaw-Dropping.” Get tickets: Link in bio.
+                            </span>
+
+                            <span class="comment-1">
+                                littlelegendsart Grindelwald is good but Voldemort is WAY better! 
+                                <span class="icon-favorite">
+                                    <img src="./img/img-icon-heart.png" class="img-icon-heart-comment">    
+                                </span>
+                            </span>
+
+                            <span class="comment-2">
+                                harishraghavendra Voldermort has the vibe...Grindlewald is just a good villian!
+                                <span class="icon-favorite">
+                                    <img src="./img/img-icon-heart.png" class="img-icon-heart-comment">    
+                                </span>
+                            </span>
+
+                            <span class="last-acess-post">
+                                2 hours ago
+                            </span>
+                            <span>                               
+                                <input type="text" id="input-comment" name="txt-add-comment" value="Add a comment...">
+                                <button type="button" class="button-report" onclick="alert('This button does nothing.')">
+                                        <i class="fas fa-arrows-alt" id="icon-report"></i>
+                                </button>                              
+                            </span>                           
+                        </div>       
+                    </div>
+
+
                 </div>
+
+
+
+
+
     
                 <div class="panel-right">
                     <div class="profile">
@@ -131,7 +342,7 @@
                   
 
                 <div class="suggestions">
-                    <h4 class="title-suggestions">Suggestions For Uou</h4> 
+                    <h4 class="title-suggestions">Suggestions For You</h4> 
                     <h5 class="ver-tudo-suggestions">See All</h5>
                     <div id="suggestion">
                         <img src="./img/img-tina.jpg" class="img-tina">

@@ -1,12 +1,13 @@
 * {
     padding: 0;
     margin: 0;
+
 }
 
 main {
     width: 100%;
     height: 100%;
-    background: #F8F8FF;
+    background: #fbfbfb;
 }
 
 .topo {
@@ -19,29 +20,74 @@ main {
 
 .panel-general {
     width: 900px;
-    height: 500px;
+   /* height: 500px;*/
     position: absolute;
     left: calc(50% - 450px);
-    top: calc(50% - 180px);
-    background: #F8F8FF;
+    top: 150px;
+    background: #fbfbfb;
 
 }
 
 .panel-left {
     width: 600px; 
-    height: 500px;
+    height: 700px;
     position: absolute;
     background: white;
    }
 
-.post {
+.post-1 {
     width:600px; 
     height:700px;
     z-index:1;
     overflow: auto;
-    position:absolute;
+    display: inline-block;
     border: 1px solid #DCDCDC;	
+    margin-bottom: 48px 
       
+}
+
+
+.post-2 {
+    width:600px; 
+    height:700px;
+    z-index:1;
+    overflow: auto;
+    border: 1px solid #DCDCDC;	
+    margin-bottom: 48px 
+
+      
+}
+
+.post-3 {
+    width:600px; 
+    height:700px;
+    z-index:1;
+    overflow: auto;
+    border: 1px solid #DCDCDC;	
+    margin-bottom: 48px 
+
+      
+}
+
+.post-4 {
+    width:600px; 
+    height:700px;
+    z-index:1;
+    overflow: auto;
+    border: 1px solid #DCDCDC;	
+    margin-bottom: 48px 
+
+      
+}
+
+.post-5 {
+    width:600px; 
+    height:700px;
+    z-index:1;
+    overflow: auto;
+    border: 1px solid #DCDCDC;	
+    margin-bottom: 48px 
+
 }
 
 .parte-1 {
@@ -63,18 +109,27 @@ main {
 .likes {
     margin: 0px 0px 8px 12px;
     display: block;
+    font-family: 'Lora';
+    font-size: 14px;
 }
 
 .txt-post {
-     margin: 8px 8px 8px 12px;
-     display: block;
-     cursor: pointer;
+    margin: 8px 8px 8px 12px;
+    display: block;
+    cursor: pointer;
+    font-family: 'Lora';
+    font-size: 14px;
+
  }
 
  .comment-1, .comment-2 {
     margin: 8px 8px 8px 12px;
     display: block;
     cursor: pointer;
+    font-family: 'Lora';
+    font-size: 14px;
+
+
 }
 
 .last-acess-post {
@@ -82,6 +137,8 @@ main {
     display: block;
     color: gray;
     font-size: 14px;
+    font-family: 'Lora';
+
 }
 
 .img-icon-heart-comment {
@@ -95,11 +152,14 @@ main {
 
 #input-comment {
     width: 550px;
-    height: 44px;
+    height: 46px;
     border: 1px solid #DCDCDC;
-    border-right:1px solid white	
-}
+    border-right:1px solid white;
+    border-bottom: 0px;
+    font-family: 'Lora';
+    font-size: 14px;
 
+}
 
 .button-report {
     width: 50px;
@@ -107,7 +167,7 @@ main {
     float: right;
     background: white;
     border: 1px solid white;
-    border-bottom: 1px solid #DCDCDC;
+    border-bottom: 0;
     border-top: 1px solid #DCDCDC;	
     
 }
@@ -159,40 +219,42 @@ main {
 
 
 .panel-right {
-    width: 270px;
-    height: 500px;
-    /*background: #7FFF00;*/
+    width: 274px;
+    height: 520px;
+    
     float: right;
+    position: relative;
+    background: palevioletred;
+    border: 4px solid #C71585;
 
 }
 
 .profile {
-    width: calc(270px);
-    height: calc(500px - 88%) ;
-    padding: 12px;
-    float: right;
-    cursor: pointer;
-
-    
+    width:250px;
+    height: 54px;
+    display: block;    
+    background: greenyellow;
+    border: 4px solid #1C1C1C;
 
 }
 .stories {
     width: 250px;
-    height: calc(500px - 55%) ;
-    padding: 12px;
+    height:200px ;
+    padding: 6px;
     background: white;
     z-index:1;
     overflow: auto;
     border: 1px solid #DCDCDC;
+    position: relative;
+
 
 }
 
 .suggestions {
-    width: 250px;
-    height: calc(500px - 65%);
-    padding: 12px;
+    width: 260px;
+    height: 180px;
     background: white;
-    margin-top: 12px; 
+    margin-top: 18px; 
     border: 1px solid #DCDCDC;	
 
 }
@@ -203,6 +265,9 @@ main {
     overflow: auto;
     border: 1px solid white;
     padding: 4px 0px 2px 0px;
+    font-family: 'Lora';
+
+
     
 }
 
@@ -211,6 +276,10 @@ main {
     margin-left: 12px;
     color: gray;
     display: inline-flex;
+   font-family: 'Lora';
+   font-size: 14px;
+
+
 }
 
 .ver-tudo-stories {
@@ -219,6 +288,10 @@ main {
     float: right;
     display: inline-block;
     cursor: pointer;
+   font-family: 'Lora';
+   font-size: 12px;
+
+
 
 }
 
@@ -229,6 +302,10 @@ main {
     float: right;
     display: inline-block;
     cursor: pointer;
+    font-family: 'Lora';
+    font-size: 12px;
+
+
 
 }
 
@@ -240,30 +317,34 @@ main {
 .img-queenie  {
     width: 46px;
     height: 46px;
-    border-radius: 32px;
+    border-radius: 24px;
     border: 1px solid #CDC8B1;
-    margin: 0px 8px 24px 8px;
-   /* position: absolute;*/
-    float: left;
-    display: flex;
+
+   position: absolute;
+    /*float: left;*/
     cursor: pointer;
 
 }
 
 
 .username-queenie  {
-    display: inline-block;
+    display: inline-flex;
     font-weight: bold;
     cursor: pointer;
-
+    font-family: 'Lora';
+    font-size: 13px;
+    margin-left: 48px;
     
 }
 
 .name-queenie {
-    margin: 0px 0px 0px 0px;
-    display: inline-block;
+    display: inline-flex;
     color: gray;
     font-size: 13.5px;
+    font-family: 'Lora';
+    font-size: 13px;
+    margin-left: 48px;
+    margin-bottom: 48px;
 
 
 }
@@ -271,7 +352,7 @@ main {
 .img-newt {
     width: 32px;
     height: 32px;
-    border-radius: 32px;
+    border-radius: 18px;
     border: 2px solid #C71585;
     margin: 0px 12px 8px 8px;
     float: left;
@@ -284,9 +365,11 @@ main {
     font-weight: bold;
     margin-top: 8px;
     cursor: pointer;
+    font-family: 'Lora';
+    font-size: 13px;
+
 
 }
-
 
 
 
@@ -294,7 +377,9 @@ main {
     margin: 2px 0px 0px 0px;
     display: inline-block;
     color: gray;
-    font-size: 11px;
+    font-size: 10px;
+    font-family: 'Lora';
+
 }
 
 
@@ -317,22 +402,29 @@ main {
     margin: 8px;
     float: left;
     cursor: pointer;
+
 }
 
  .username-dumbledore {
     display: inline-flex;
     margin: 4px 8px 12px 0px;
     cursor: pointer;
+   font-family: 'Lora';
+   font-size: 13px;
+
+
 
 }
 
 
 .username-tina {
     display: inline-flex;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     margin-top: 6px;
     cursor: pointer;
+   font-family: 'Lora';
+
 
 
 }
@@ -341,15 +433,19 @@ main {
     z-index:1;
     overflow: auto;
     border: 1px solid white;
-    padding: 4px 0px 2px 0px;
+    padding: 3px 0px 2px 0px;
+
     
 }
 
 .title-suggestions {
-    margin: 18px 8px 16px 8px;
-    font-size: 14px;
+    margin: 6px 8px 8px 8px;
+    font-size: 13px;
     font-weight: bold;
     color: gray;
+    font-family: 'Lora';
+
+
 }
 
 
@@ -357,6 +453,9 @@ main {
     display: inline-flex;
     margin-top: 4px;
     font-size: 12px;
+    font-family: 'Lora';
+
+
 }
 
 
@@ -376,6 +475,7 @@ main {
     margin-left: 220px;
     cursor: pointer;
     position: absolute;
+
 
 }
 
@@ -415,8 +515,29 @@ main {
     position: absolute;
     margin: 24px 8px 0 542px;
     padding: 4px;
+   font-family: 'Lora';
+
 }
 
+
+.submit-lupa {
+    position:absolute;
+    top:0; right:0;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+    color: red;
+  }
+  
+  .submit-line {
+    position: relative;
+    width: 200px;
+  }
+  
+  .submit-line input {
+    width: 100%;
+  }
 
 
 

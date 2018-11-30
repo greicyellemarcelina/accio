@@ -15,3 +15,6 @@ Ttreino de css + html
 ## Cores do Projeto
 - `#FFFFFF` (White)
 - `#F8F8FF` (GhostWhite)
+
+## Fontes 
+
